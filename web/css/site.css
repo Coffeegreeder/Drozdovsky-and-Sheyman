@@ -1,0 +1,108 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    background: #1a1a1a;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+
+nav ul{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    margin-left: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #b7b7b7;
+    transition: color 0.3s ease;
+}
+
+.content{
+    padding: 0 100px;
+}
+
+.post{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #1a1a1a;
+}
+
+.post__title{
+    font-size: 20px;
+}
+
+.post__content{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.post__date{
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    text-align: right;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    resize: none;
+    width: 100%;
+    border: 1px solid #1a1a1a;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+input{
+    height: 24px;
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    outline: 0 solid #1a1a1a;
+    border: none;
+    font-size: 20px;
+    background: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    outline: 5px solid #1a1a1a;
+    background: none;
+    color: #1a1a1a;
+    transition: all 0.3s ease;
+}
